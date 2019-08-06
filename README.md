@@ -1,21 +1,19 @@
-# blog
+该项目是一个多用户博客管理后台系统。采用vue+express开发
+这部分是前端代码。<br>
+该项目主要包括用户的登录注册以及用户对自己博客增删改查的一些基本功能。
 
-> this is a blog client
+### 前端技术栈
+前端主要采用了：
 
-## Build Setup
+- 1.Vue
+- 2.axios
+- 3.ElementUI
+- 5.mavon-editor
+- 6.vue-router
 
-``` bash
-# install dependencies
-npm install
+### 项目使用
+1. 克隆该项目以及blogServer项目至本地
+2. 启动服务端blogServer(具体见blogServer README.md)
+3. 启动该项目即可在8080端口访问该项目
+> npm run dev
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
